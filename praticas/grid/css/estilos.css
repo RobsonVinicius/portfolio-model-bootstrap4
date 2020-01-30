@@ -31,11 +31,22 @@ aside {
   margin-bottom: 20px;
 }
 
+.widgets .col-12 {
+  padding: 0;
+}
+
 .widgets .box {
   background: #2196f3;
   color: #fff;
   padding: 20px; 
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .widgets .col-12 {
+    padding: 0 15px;
+  }
+}
+
 
 @media (max-width: 767.98px) { 
   .widgets .col-12 {
