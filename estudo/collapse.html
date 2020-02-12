@@ -41,52 +41,55 @@
     </div>
     <div class="row mt-5">
       <div class="col">
-        <div id="acordion" role="tablist" aria-multiselectable="true">
+
+        <div class="accordion" id="accordionExample">
           <div class="card">
-            <div class="card-header" role="tab" id="heading1">
+            <div class="card-header" id="heading1">
               <h5 class="mb-0">
-                <a href="#collapse1" data-toggle="collapse" data-parent="#acordion" aria-expended="true" aria-controls="collapse1">            
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">    
                   Conteúdo 1      
-                </a>
+                </button>
+              </h5>
             </div>
-            <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1">
+            <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
               <div class="card-body">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus amet voluptatum architecto magnam in obcaecati, similique laudantium, sit numquam quis expedita asperiores commodi repellat. Eos iste nesciunt voluptatem dolore. Sequi.Vitae commodi nostrum atque magni perspiciatis perferendis animi, necessitatibus, qui aperiam eaque ex enim est. Alias, quas totam? Sequi vitae blanditiis consequatur aliquam distinctio delectus eum dolorem, ut tenetur debitis!
               </div>
             </div>
-
           </div>
+
           <div class="card">
-            <div class="card-header" role="tab" id="heading2">
+            <div class="card-header" id="heading2">
               <h5 class="mb-0">
-                <a href="#collapse2" data-toggle="collapse" data-parent="#acordion" aria-expended="true" aria-controls="collapse2">            
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">        
                   Conteúdo 2       
-                </a>
+                </button>
             </div>
-            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
+            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
               <div class="card-body">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus amet voluptatum architecto magnam in obcaecati, similique laudantium, sit numquam quis expedita asperiores commodi repellat. Eos iste nesciunt voluptatem dolore. Sequi.Vitae commodi nostrum atque magni perspiciatis perferendis animi, necessitatibus, qui aperiam eaque ex enim est. Alias, quas totam? Sequi vitae blanditiis consequatur aliquam distinctio delectus eum dolorem, ut tenetur debitis!
               </div>
             </div>
-
           </div>
+
           <div class="card">
-            <div class="card-header" role="tab" id="heading3">
+            <div class="card-header" id="heading3">
               <h5 class="mb-0">
-                <a href="#collapse3" data-toggle="collapse" data-parent="#acordion" aria-expended="true" aria-controls="collapse3">            
-                  Conteúdo 2       
-                </a>
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Conteúdo 3       
+                </button>
             </div>
-            <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
+            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
               <div class="card-body">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus amet voluptatum architecto magnam in obcaecati, similique laudantium, sit numquam quis expedita asperiores commodi repellat. Eos iste nesciunt voluptatem dolore. Sequi.Vitae commodi nostrum atque magni perspiciatis perferendis animi, necessitatibus, qui aperiam eaque ex enim est. Alias, quas totam? Sequi vitae blanditiis consequatur aliquam distinctio delectus eum dolorem, ut tenetur debitis!
               </div>
             </div>
-
           </div>
         </div>
+
       </div>
     </div>
+
   </div>
 
   <script src="../js/jquery-3.4.1.min.js"></script>
