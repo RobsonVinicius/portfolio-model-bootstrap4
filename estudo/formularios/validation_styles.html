@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <title>Estilos para Validação</title>  
+  <style>
+    input:valid {
+      border: 1px solid #8fe98f;
+    }
+    input:required:invalid {
+      border: 1px solid #e49385;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col">
+        <form action="">
+          <div class="form-group">
+            <label for="nome" class="form-control-label">Nome</label>
+            <input type="text" class="form-control is-valid" name="nome" id="nome" placeholder="Nome">
+            <div class="form-control-feedback">Mensagem de Advertencia</div>
+          </div>          
+          <div class="form-group" class="form-control-label">
+            <label for="password">Senha</label>
+            <input type="password" class="form-control is-invalid" name="password" id="password" placeholder="Senha" required>
+            <div class="form-control-feedback">Mensagem de Advertencia</div>
+          </div>     
+        </form>
+      </div>
+    </div>  
+    
+  </div>
+
+  <script src="../../js/jquery-3.4.1.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>
