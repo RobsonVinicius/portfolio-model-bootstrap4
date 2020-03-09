@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Navs</title>  
+</head>
+<style>
+  .my-nav {    
+    padding: 15px;
+  }  
+  
+  .nav-default a {
+    color: rgb(80, 80, 80);
+  }
+
+  .nav-default a:hover {
+    color: rgb(0, 204, 78);
+  }
+
+  .nav-default .disabled {
+    color: rgba(80, 80, 80, .5);
+  }
+
+  .nav-bg-dark a {
+    color: #fff;
+  }
+
+  .nav-bg-dark a:hover {
+    background-color: rgba(255, 255, 255, .1);
+    height: 100%;
+  }
+
+  
+  
+</style>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-4">
+        <h3>Menu com ul</h3>
+        <hr>
+        <ul class="my-nav nav-default nav navbar navbar-expand bg-light">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Início</a>
+          </li>                  
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>                  
+          <li class="nav-item">
+            <a href="#" class="nav-link">Mapa</a>
+          </li>                  
+          <li class="nav-item">
+            <a href="#" class="nav-link disabled">Contato</a>
+          </li>                  
+        </ul>
+      </div>
+      <div class="col-12 mt-5">
+        <h3>Menu com estilos CSS </h3>
+        <hr>
+        <nav class="my-nav nav-bg-dark navbar navbar-expand bg-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Planos</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Contato</a>
+            </li>            
+          </ul>               
+        </nav>
+      </div>
+      <div class="col-12 mt-5">
+        <h3>Menu com Nav centralizado</h3>
+        <hr>
+        <ul class="nav justify-content-center">
+          <a class="nav-link" href="">Início</a>                        
+          <a class="nav-link" href="">Portfolio</a>                        
+          <a class="nav-link disabled" href="">Planos</a>                        
+          <a class="nav-link" href="">Contato</a>                        
+        </ul>  
+      </div>
+      <div class="col-12 mt-5">
+        <h3>Menu Vertical</h3>
+        <hr>
+        <ul class="nav flex-column">
+          <a class="nav-link" href="">Início</a>                        
+          <a class="nav-link" href="">Portfolio</a>                        
+          <a class="nav-link disabled" href="">Planos</a>                        
+          <a class="nav-link" href="">Contato</a>                        
+        </ul>  
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
