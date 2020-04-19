@@ -7,13 +7,66 @@
   <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <title>Scrollspy</title>  
+  <style>
+    body {
+      position: relative;
+      padding-top: 54px;      
+    }
+
+    .fm-nav a {
+      color: #fff;      
+      padding: 15px;
+    }
+
+    .fm-nav .active, .fm-nav a:hover {
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .section {
+      margin-bottom: 1000px;
+    }
+
+    .section .columna { 
+      padding-top: 100px;
+    }
+  </style>
 </head>
-<body>
+<body data-spy="scroll" data-target="fm-nav">
 
   <div class="container">
     <div class="row">
       <div class="col">
-        
+        <div id="fm-nav">
+          <div class="fm-nav nav fixed-top bg-primary">
+            <li class="nav-item">
+              <a href="" class="nav-link">Section #1</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Section #2</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Section #3</a>
+            </li>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row section" id="section1">
+      <div class="col-12 columna">
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+      </div>
+    </div>
+    <div class="row section" id="section2">
+      <div class="col-12 columna">
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+      </div>
+    </div>
+    <div class="row section" id="section3">
+      <div class="col-12 columna">
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
       </div>
     </div>
   </div>
