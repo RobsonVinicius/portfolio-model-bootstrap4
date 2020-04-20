@@ -10,7 +10,7 @@
   <style>
     body {
       position: relative;
-      padding-top: 54px;      
+      /* padding-top: 54px;       */
     }
 
     .fm-nav a {
@@ -31,7 +31,7 @@
     }
   </style>
 </head>
-<body data-spy="scroll" data-target="fm-nav">
+<body>
 
   <div class="container">
     <div class="row">
@@ -39,36 +39,38 @@
         <div id="fm-nav">
           <div class="fm-nav nav fixed-top bg-primary">
             <li class="nav-item">
-              <a href="" class="nav-link">Section #1</a>
+              <a href="#section1" class="nav-link">Section #1</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Section #2</a>
+              <a href="#section2" class="nav-link">Section #2</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Section #3</a>
+              <a href="#section3" class="nav-link">Section #3</a>
             </li>            
           </div>
         </div>
       </div>
     </div>
-    <div class="row section" id="section1">
-      <div class="col-12 columna">
-        <h2>Section 1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+   <div data-spy="scroll" data-target="#fm-nav">
+      <div class="row section" id="section1">
+        <div class="col-12 columna">
+          <h2>Section 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+        </div>
       </div>
-    </div>
-    <div class="row section" id="section2">
-      <div class="col-12 columna">
-        <h2>Section 2</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+      <div class="row section" id="section2">
+        <div class="col-12 columna">
+          <h2>Section 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+        </div>
       </div>
-    </div>
-    <div class="row section" id="section3">
-      <div class="col-12 columna">
-        <h2>Section 3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+      <div class="row section" id="section3">
+        <div class="col-12 columna">
+          <h2>Section 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae praesentium labore cumque cum modi hic tempore, quo error quisquam sapiente, reprehenderit ipsa eius, dolores repellat delectus accusantium eligendi blanditiis!</p>
+        </div>
       </div>
-    </div>
+   </div>
   </div>
 
   <script src="../js/jquery-3.4.1.min.js"></script>
