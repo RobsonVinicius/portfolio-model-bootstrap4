@@ -23,7 +23,7 @@ header .logo p {
 
 header .logo h2 {
   font-weight: 800;
-  font-size: 17px  
+  font-size: 18px  
   /* text-transform: uppercase; */
 }
 
@@ -36,7 +36,7 @@ header .logo p {
 }
 
 
-/* --- MENU --- */
+/* --- Menu --- */
 header .menu {
   padding: 0;  
 }
@@ -45,7 +45,9 @@ header .menu a {
   display: block;
   text-decoration: none;
   color: #fff;
-  padding: 0 30px;  
+  /* padding: 0 30px;   */
+  width: 110px;
+  justify-content: center;
 }
 
 header .menu a div span {
@@ -74,4 +76,14 @@ header .menu .color-2:hover {
 
 header .menu .color-3:hover {
   background: #002d44;
+}
+
+/* --- Slider --- */
+
+.slider {
+  margin-bottom: 40px;
+}
+
+.slider  .col {
+  padding: 0px;
 }
