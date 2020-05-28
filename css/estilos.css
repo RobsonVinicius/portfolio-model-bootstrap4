@@ -81,9 +81,8 @@ header .menu .color-3:hover {
 /* --- Slider --- */
 
 .slider {
-  /* background:#fff; */
-  margin-top: 40px;
-  margin-bottom: 40px 
+  /* background:#fff; */  
+  margin-bottom: 0px 
 }
 
 .slider  .col {
@@ -95,7 +94,6 @@ header .menu .color-3:hover {
   background: #fff;
   border-top: 5px solid #3da5e2;
   padding: 0 20px;
-  margin-bottom: 40px;
 }
 
 .portfolio .titulo {
@@ -125,4 +123,60 @@ header .menu .color-3:hover {
   width: 100%;
   height: 100%;
   max-height: 100%;
+}
+
+
+/* --- Sobre --- */
+.sobre {  
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.sobre .foto {
+  text-align: center;
+}
+
+.sobre .foto img {
+  margin-bottom: 30px;
+}
+
+.sobre .foto .nome {
+  color: #545454;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.sobre .info .titulo {
+  color: #005385;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 20px
+}
+
+.sobre .info .resumo {
+  letter-spacing: 1px;
+}
+
+.sobre .info .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #005385;
+  margin-bottom: 10px;
+}
+
+.sobre .info .progress {
+  background: #005383;
+  border-radius: 0;
+  margin-bottom: 15px;
+  height: 20px;
+  
+}
+
+.sobre .info .progress-bar {  
+  background: #3da5e2;
+  text-align: left;
+  padding-left: 30px;
 }
