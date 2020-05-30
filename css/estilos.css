@@ -129,8 +129,7 @@ header .menu .color-3:hover {
 /* --- Sobre --- */
 .sobre {  
   background: #fff;
-  padding: 30px;
-  margin-bottom: 40px;
+  padding: 50px 30px 50px 30px;  
 }
 
 .sobre .foto {
@@ -179,4 +178,57 @@ header .menu .color-3:hover {
   background: #3da5e2;
   text-align: left;
   padding-left: 30px;
+}
+
+/* --- Contato --- */
+
+.contato {
+  background: #f2f2f2;
+  padding: 40px 0;
+  border-top: 1px solid #cbcbcb;
+  margin-bottom: 40px;
+}
+
+.contato .titulo {
+  color: #003855;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center; 
+} 
+
+.contato .form-group {
+  margin-bottom: 0;
+}
+
+.formulario input[type='text'],
+.formulario input[type='email'],
+.formulario textarea {
+  padding: 15px;
+  border: none;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.formulario textarea {
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;  
+}
+
+.formulario .botao {
+  background: #3da5e2;
+  border: none;
+  padding: 7px 36px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  width: auto;
+  border-radius: 3px;
+}
+
+.formulario .botao:hover {
+  background: #000;
 }
