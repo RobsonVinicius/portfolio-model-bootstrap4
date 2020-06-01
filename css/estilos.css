@@ -186,7 +186,7 @@ header .menu .color-3:hover {
   background: #f2f2f2;
   padding: 40px 0;
   border-top: 1px solid #cbcbcb;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .contato .titulo {
@@ -231,4 +231,36 @@ header .menu .color-3:hover {
 
 .formulario .botao:hover {
   background: #000;
+}
+
+.redes-sociais {
+  padding: 40px 0;
+  margin-bottom: 40px;
+  background: var(--gray);
+}
+
+.redes-sociais .icone {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;  
+  line-height: 70px;
+  text-align: center;
+  color: var(--light);  
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all .3s ease;
+}
+
+.redes-sociais .twitter {
+  background: #1da1f2;
+}
+
+.redes-sociais .instagram {
+  background: #833ab4;
+}
+
+.redes-sociais .facebook {
+  background: #3b5998;
 }
