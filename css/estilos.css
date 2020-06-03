@@ -296,4 +296,37 @@ header .menu .color-3:hover {
   .portfolio .galeria .conteudo-imagem:nth-child(5) { order: 5;}
   .portfolio .galeria .conteudo-imagem:nth-child(6) { order: 4;}
   .portfolio .galeria .conteudo-imagem:nth-child(7) { order: 7;}  
+
+  .modal .modal-dialog {
+    width: 90%;
+  }
+
+  .modal .modal-dialog .modal-content img {
+    width: 100%;
+  }
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 575px) {
+}
+
+/* Dispositivo sm */
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  header .logo h2, 
+  header .logo p {
+    font-size: 15px
+  }
+
+  .redes-sociais .icone {
+    width: 50px; 
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+
+  }
 }
