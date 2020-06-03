@@ -45,8 +45,8 @@ header .menu a {
   display: block;
   text-decoration: none;
   color: #fff;
-  /* padding: 0 30px;   */
-  width: 110px;
+  /* padding: 0 30px;         */
+  width: 120px;
   justify-content: center;
 }
 
@@ -236,7 +236,7 @@ header .menu .color-3:hover {
 .redes-sociais {
   padding: 40px 0;
   margin-bottom: 40px;
-  background: var(--gray);
+  background: var(--gray-dark);
 }
 
 .redes-sociais .icone {
@@ -263,4 +263,30 @@ header .menu .color-3:hover {
 
 .redes-sociais .facebook {
   background: #3b5998;
+}
+
+
+/* --- Mediaqueries --- */
+
+/* Dispositivo lg */
+@media screen and (max-width: 1199) {}
+
+/* Dispositivo lg */
+@media screen and (max-width: 991px) {
+  .logo {
+    height: 76px;
+  }
+
+  .menu {
+    min-height: 76px;
+  }
+
+  header .menu a {
+    width: 33.333%;
+  }
+
+  .menu a div {
+    width: 100%;
+  }
+
 }
