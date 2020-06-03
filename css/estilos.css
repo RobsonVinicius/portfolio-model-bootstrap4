@@ -183,7 +183,7 @@ header .menu .color-3:hover {
 /* --- Contato --- */
 
 .contato {
-  background: #f2f2f2;
+  background: #dee2e6;
   padding: 40px 0;
   border-top: 1px solid #cbcbcb;
   margin-bottom: 0px;
@@ -289,4 +289,11 @@ header .menu .color-3:hover {
     width: 100%;
   }
 
+  .portfolio .galeria .conteudo-imagem:nth-child(1) { order: 1;}
+  .portfolio .galeria .conteudo-imagem:nth-child(2) { order: 3;}
+  .portfolio .galeria .conteudo-imagem:nth-child(3) { order: 6;}
+  .portfolio .galeria .conteudo-imagem:nth-child(4) { order: 2;}
+  .portfolio .galeria .conteudo-imagem:nth-child(5) { order: 5;}
+  .portfolio .galeria .conteudo-imagem:nth-child(6) { order: 4;}
+  .portfolio .galeria .conteudo-imagem:nth-child(7) { order: 7;}  
 }
