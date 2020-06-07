@@ -1,3 +1,7 @@
+:root {
+  --hover-bg: #cbcbcb;
+}
+
 body {
   background: #212121;
   font-family: 'Open Sans', sans-serif;
@@ -257,12 +261,27 @@ header .menu .color-3:hover {
   background: #1da1f2;
 }
 
+.redes-sociais .twitter:hover {
+  background: #1885c9;
+  color: var(--hover-bg);
+}
+
 .redes-sociais .instagram {
   background: #833ab4;
 }
 
+.redes-sociais .instagram:hover {
+  background: #5b267e;
+  color: var(--hover-bg);
+}
+
 .redes-sociais .facebook {
   background: #3b5998;
+}
+
+.redes-sociais .facebook:hover {
+  background: #273b64;
+  color: var(--hover-bg);
 }
 
 
